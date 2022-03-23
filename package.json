@@ -1,0 +1,32 @@
+{
+  "name": "metamail-utils",
+  "version": "1.0.0",
+  "description": "utils for sign, verify, encrypt and decrypt metamail",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd example && node test_sign.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MetaMail/metamail-utils.git"
+  },
+  "keywords": [
+    "web3",
+    "email",
+    "sign",
+    "encrypt"
+  ],
+  "author": "metamail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MetaMail/metamail-utils/issues"
+  },
+  "homepage": "https://github.com/MetaMail/metamail-utils#readme",
+  "dependencies": {
+    "@metamask/eth-sig-util": "^4.0.0",
+    "mailparser": "^3.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}
