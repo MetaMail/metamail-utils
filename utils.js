@@ -66,6 +66,7 @@ const verifySign = async (eml_file) => {
         signature: sig,
     });
 
+    // TODO: verify if sender == addr
     if (recoveredAddr !== addr) {
         return false;
     }
